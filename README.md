@@ -14,6 +14,10 @@ Expand the contents of `blank.zip` into your WP installation directory. Everythi
 ## Dev environment
 **Use [Studio](https://developer.wordpress.com/studio/) for now** (they want you to log in to WP.com but you don't actually have to).
 
-A lot of the recommended dev environments kinda suck. dotorg's own [wp-env](https://developer.wordpress.org/block-editor/reference-guides/packages/packages-env/) is... fine, but buggy. From looking around you could also use LocalWP (_really_ slow on Windows!), set up Laravel Herd (kinda needs their Pro premium product to work well because no out of the box MySQL/equivalent support), or Xampp or Mamp if you're weird. [Studio](https://github.com/Automattic/studio) is undeniably snappy, although unconventional in its implementation, but very much sufficient for plugin/theme development.
+A lot of the recommended dev environments kinda suck. dotorg's own [wp-env](https://developer.wordpress.org/block-editor/reference-guides/packages/packages-env/) is... fine, but buggy.
+
+From looking around you could also use LocalWP (_really_ slow on Windows!), set up Laravel Herd (kinda needs their Pro premium product to work well because no out of the box MySQL/equivalent support), or Xampp or Mamp if you're weird.
+
+[Studio](https://github.com/Automattic/studio) is undeniably snappy, although unconventional in its implementation, but very much sufficient for plugin/theme development.
 
 Ideally I want to try [ddev](https://ddev.readthedocs.io/en/stable/users/quickstart/#wordpress), which sems to be the most "production-accurate" environment I can find and it seems to be good.
